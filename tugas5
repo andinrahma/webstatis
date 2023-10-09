@@ -1,0 +1,160 @@
+<html>
+
+<head>
+    <title>Buku Harry Potter and the Philosopher's Stone</title>
+</head>
+<style>
+    body {
+        background-color: brown;
+        background-attachment: fixed;
+        backdrop-filter: blur(01px);
+        padding-bottom: 0%;
+        padding-top: 0%;
+        height: auto;
+        text-align: justify;
+    }
+
+img {
+display: flex;
+margin-left: auto;
+margin-right: auto;
+}
+
+.jk {
+    display: inline-flex;
+}
+</style>
+
+
+<body>
+
+<!--html classes-->
+<style>
+.note{
+font-size: 100%;
+color: black;
+}
+</style>
+
+<!--html id-->
+<style>
+    #f {
+        color: blanchedalmond;
+        font-family: monospace;
+    }
+
+    img{
+display: flex;
+margin-left:auto;
+margin-right: auto;
+
+    }
+
+    .wrapper {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table{
+        font-family: gill sans;
+        color: bisque;
+        border-collapse: collapse;
+    }
+    th{
+        font-size: 20px;
+        border-style: solid;
+        border-collapse: collapse;
+        border-color: black;
+    }
+    td{
+        font-size: 20px;
+        border-style: solid;
+        border-collapse: collapse;
+        border-color: black;
+    }
+</style>
+<h1 style="font-family: gill sans; color: bisque;" >Harry Potter and the Philosopher's Stone</h1>
+<hr>
+<p style="margin-left: 80px; margin-right: 30px; float: left"><img src="images/kj.jpg" width="300" height="400"> </p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p
+    style="font-family: Gill Sans;backdrop-filter: blur ;color: white;font-size: 20px;">
+<span class="note">Buku ini ditulis oleh J.K. Rowling dan diterbitkan pada tahun 1997. </span> Ini adalah buku pertama dalam seri yang terdiri dari tujuh buku dan mengikuti petualangan Harry Potter, seorang anak penyihir, di Hogwarts School of Witchcraft and Wizardry. Cerita ini memulai perjalanan yang epik dalam dunia sihir yang penuh dengan makhluk ajaib, sihir, dan petualangan.
+</p>
+
+<h2 id="f">Berikut kritik analis dari buku Harry Potter and the Philosopher's Stone</h2>
+
+<!--html list-->
+<ol style="font-family: sans-serif;font-size: 20px;color: white;">
+<li>Cerita yang disajikan dalam novel ini dianggap tidak rasional, namun asyik untuk dibaca, sehingga pembaca berhenti mengikuti jalan cerita.</li>
+<li>Gaya bahasa novel ini mudah dimengerti, tetapi beberapa kata tidak penting. J.K. Rowling menggunakan bahasa yang kompleks untuk mengubah novel menjadi novel fantasi, memaksa pembaca untuk bekerja lebih keras untuk memahami istilah-istilah baru</li>
+<li> Novel ini berkisah tentang masalah supernatural, kritik sosial, dan persahabatan yang dihadapi Harry Potter sebagai protagonis cerita, yang menarik tanpa mempengaruhi minat cerita.</li>
+
+</ol>
+<br>
+<div>
+<!--html block & inline-->
+<h2 style="font-family: 'Segoe UI';border: 3px solid burlywood;">Sinopsis dari buku Harry Potter and the Philosopher's Stone</h2>
+</div>
+
+<p style="font-family: gill sans; backdrop-filter: blur; color: blanchedalmond; font-size: 20px;">Harry Potter and the Philosopher's Stone" mengisahkan tentang seorang anak bernama Harry Potter yang hidup dalam kondisi yang sangat tidak menguntungkan bersama bibi dan paman tirinya setelah kedua orang tuanya tewas dalam kecelakaan mobil saat ia masih bayi. Namun, pada ulang tahun kesebelasnya, ia tiba-tiba mengetahui bahwa ia adalah seorang penyihir, dan pintu ke dunia sihir yang ajaib terbuka baginya. Harry diundang untuk bergabung dengan Hogwarts School of Witchcraft and Wizardry, sebuah sekolah sihir yang terkenal. Di Hogwarts, Harry bertemu dengan teman-teman baru seperti Ron Weasley dan Hermione Granger. Mereka bersama-sama menjalani petualangan di sekolah ini, mempelajari sihir, dan mengejar misteri tentang "Batu Bertuah" (Philosopher's Stone) yang memiliki kekuatan untuk memberikan kehidupan abadi.
+    Sementara itu, mereka juga mengetahui tentang sejarah kelam yang melibatkan penyihir jahat bernama Voldemort yang mencoba untuk kembali ke kekuasaan. Harry, Ron, dan Hermione kemudian terlibat dalam usaha untuk melindungi Batu Bertuah dari jangkauan Voldemort.
+    Novel ini memadukan unsur-unsur sihir, petualangan, persahabatan, dan pertempuran antara kebaikan dan kejahatan, menjadikannya kisah yang menarik dan penuh pesan moral. Buku ini dibuatkan versi live action nya pada tahun 2001, berikut trailer dari film tersebut.</p>
+
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/mNgwNXKBEW0?si=7GnGfqaQvi23iDh7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <br>
+    <br>
+    <hr>
+
+    <p style="margin-left: 80px; margin-right: 30px; float: left"> <img src="images/he.jpg" width="260" height="400">
+    <br>
+    <br>
+<!--html tabel-->
+<div style="padding-left: 30px;padding-right: 30px;font-family: gill sans;color: bisque;">
+<table>
+    <tr>
+        <th text-align="center">kelebihan</th>
+        <th text-align="center">kekurangan</th>
+    </tr>
+    <tr>
+        <td>Buku ini menciptakan dunia sihir yang sangat memikat dan detail, yang memungkinkan pembaca untuk merasakan keajaiban dan keindahan di dalamnya.</td>
+        <td>Awalnya ditujukan untuk pembaca muda, sehingga beberapa pembaca dewasa mungkin merasa beberapa aspek ceritanya agak sederhana atau terlalu anak-anak.</td>
+        </tr>
+
+    <tr>
+        <td> Karakter utama, termasuk Harry, Ron, dan Hermione, dikembangkan dengan baik, dengan kekuatan dan kelemahan mereka masing-masing. Ini membuat pembaca merasa terhubung dengan mereka.</td>
+        <td>Bagian awal buku ini mungkin terasa sedikit lambat bagi beberapa pembaca karena memperkenalkan dunia sihir yang kompleks.</td>
+        </tr>
+    <tr>
+        <td> Plot cerita yang menarik menggabungkan petualangan, misteri, dan elemen-elemen sihir yang membuat pembaca tertarik untuk terus membaca.</td>
+        <td>Beberapa kritikus telah mengangkat isu stereotip dalam karakter tertentu, meskipun seiring perkembangan seri, karakter tersebut menjadi lebih kompleks.</td>
+        </tr>
+
+</table>
+</div>
+<hr>
+
+<!--html form-->
+<form style="font-family: gill sans;padding-left: 30px;padding-right: 30px;font-size: large;">
+    <h1 style="font-family: gill sans;font-size: 20px;color: bisque;">Apakah kalian tertarik dengan buku ini?</h1>
+<input type="radio" id="yes" name="fav_language" value="ya">
+<label for="yes">ya</label><br>
+<input type="radio" id="no" name="fav_language" value="tidak">
+<label for="no">tidak</label><br>
+</form>
+
+<hr>
+<p style="font-size: medium;color: antiquewhite;">Andini Gandes Rahmawati </p>
+    <p style="font-size: medium;color: antiquewhite;">11210251000002 </p>
+    <p style="font-size: medium;color: antiquewhite;">5A Ilmu Perpustakaan </p>
+
+
+</body>
+
+</html>
