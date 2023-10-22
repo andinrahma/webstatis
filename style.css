@@ -1,0 +1,84 @@
+/*ini adalah comment*/
+
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans';
+    color: antiquewhite;
+}
+
+img {
+    width: 20%; /*ukuran gambar*/
+   
+}
+
+/*paragraf*/
+p {
+    background-color: brown;
+    color: azure;
+    font-family: 'gill sans';
+    text-align: justify;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+}
+
+ul {
+    padding-left: 64px;
+    color:white;
+    font-family: 'Franklin Gothic';
+}
+
+/*link*/
+a {
+    color: white;
+}
+
+
+.wrapper-content {
+    background: brown;
+    text-align: center;
+    color: antiquewhite;
+    
+}
+
+/*class*/
+.pback {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+.back {
+    background-image: url(image/ps.jpg);
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 40%;
+    background-attachment: fixed;
+}
+
+.head {
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.head2 {
+    color: white;
+    background: brown;
+    text-align: center;
+}
+
+
