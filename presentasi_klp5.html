@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeri Nasional Indonesia</title>
+
+    <link rel="icon" type="image/x-icon" href="image/GNI.ico" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="styleJS.css" />
+  </head>
+  <body>
+    <!-- Navbar START -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Galeri Nasional Indonesia</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#profil">Profil</a>
+        <a href="#about">Tentang GNI</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#koleksi">Koleksi</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar END -->
+
+    <!-- Hero Section START -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Kamu Pecinta Lukisan? Kamu Harus Berkunjung Ke GNI</h1>
+        <p>
+          <i>Give glory to God, and love the people.</i> <br />
+          <i>-Raden Saleh</i>
+        </p>
+      </main>
+    </section>
+    <!-- Hero Section END -->
+
+    <!-- Profil Section START -->
+    <section id="profil" class="profil">
+      <h2><span>Profil</span> Galeri Nasional Indonesia</h2>
+
+      <div class="row">
+        <div class="profil-image">
+          <img src="image/profil_GNI.jpg" alt="profil_GNI" />
+        </div>
+        <div class="content">
+          <p>
+            Galeri Nasional Indonesia merupakan museum seni rupa modern dan
+            kontemporer yang ada di Jakarta. GNI melaksanakan pengkajian,
+            pengumpulan, registrasi, perawatan, pengamanan, pameran dan
+            publikasi karya seni rupa berupa lukisan, sketsa, grafis, patung,
+            keramik, desain grafis, ilustrasi, fotografi, seni kriya, seni
+            instalasi, seni media, dan media alternatif lainnya yang dapat
+            dikategorikan sebagai seni rupa modern dan kontemporer.
+          </p>
+          <p>
+            Karya seni yang dikumpulkan dan dirawat GNI berasal atau terkumpul
+            dari Museum Nasional Indonesia; Direktorat Kesenian, Sekretariat
+            Direktorat Jenderal Kebudayaan; dan GNI. Karya-karya tersebut
+            merupakan hasil olah artistik seniman Indonesia dan mancanegara,
+            yang terdiri dalam berbagai ekspresi, bentuk, media, teknik dan
+            latar belakang seniman serta keunggulan karyanya.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Profil Section END -->
+
+    <!-- about Section START -->
+    <section class="about" id="about">
+      <h2><span>Tentang </span>GNI</h2>
+
+      <div class="icon-about">
+        <a href="#" id="kanan_garuda" onclick="toggleParagraph(event)"
+          ><i data-feather="chevron-right"></i
+        ></a>
+      </div>
+      <div class="content">
+        <p id="sejarah" style="display: none">
+          Galeri Nasional Indonesia (GNI) merupakan museum seni rupa modern dan
+          kontemporer Indonesia di bawah naungan Direktorat Jenderal Kebudayaan,
+          Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi. GNI berdiri
+          pada 1998 berdasarkan surat persetujuan Menko Pegawasan Pembangunan
+          dan Pendayagunaan Aparatur Negara No. 34/MK.WASPAN/1998. Dilanjutkan
+          dengan ketetapan Kepmendikbud No.099a/0/1988, GNI kemudian diresmikan
+          operasionalnya pada 8 Mei 1999 oleh Menteri Pendidikan dan Kebudayaan
+          yang kala itu dijabat oleh Juwono Sudarsono. Gedung GNI yang berciri
+          khas arsitektural kolonial Belanda ini terletak di jantung ibu kota,
+          Jalan Medan Merdeka Timur No. 14 Jakarta Pusat (dulu Koningsplein
+          Oost).
+        </p>
+      </div>
+    </section>
+    <!-- about Section END -->
+
+    <!-- Layanan Section START -->
+    <section id="layanan" class="layanan">
+      <h2><span>Layanan </span>GNI</h2>
+
+      <div class="row">
+        <div class="icon-layanan">
+          <a href="#" id="kanan_tur" onclick="toggleLayanan(event, 'layanan')">
+            <i data-feather="chevron-right"></i>
+          </a>
+        </div>
+        <div class="layanan-image">
+          <img src="image/turpameran.jpg" alt="layanan_tur" id="layanan_tur" />
+        </div>
+        <div class="content">
+          <p id="layananText" style="display: none">
+            <span>1. Tur Pameran</span> <br />
+            Layanan tur disediakan di GNI bagi pengunjung yang berkunjung dan
+            meminta tur.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="icon-layanan">
+          <a href="#" id="kanan_tur" onclick="toggleLayanan(event, 'virtual')">
+            <i data-feather="chevron-right"></i>
+          </a>
+        </div>
+        <div class="layanan-image">
+          <img src="image/virtualtur.jpg" alt="virtual_tur" id="virtual_tur" />
+        </div>
+        <div class="content">
+          <p id="layananText2" style="display: none">
+            <span>2. Tur Virtual</span> <br />
+            Buat kamu yang mau kepoin isi dari Galeri Nasional Indonesia ini
+            tapi belum punya waktu luang untuk berkunjung, bisa banget nih
+            kunjungin GNI dengan layanan virtual tur-nya mereka. <br />
+            melalui link berikut:
+            <a href="https://gni.kemdikbud.go.id/assets/virtualtour/index.htm"
+              >Lihat VT GNI</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="icon-layanan">
+          <a
+            href="#"
+            id="kanan_lokarya"
+            onclick="toggleLayanan(event, 'lokarya')"
+          >
+            <i data-feather="chevron-right"></i>
+          </a>
+        </div>
+        <div class="layanan-image">
+          <img src="image/lokakarya.jpg" alt="lokarya" id="lokarya" />
+        </div>
+        <div class="content">
+          <p id="layananText3" style="display: none">
+            <span>3. Lokakarya</span> <br />
+            GNI juga sering mengadakan acara lokakarya yang membahas mengenai
+            pameran lohh.. <br />
+            buat kamu yang tertarik bisa bangett berkunjung ke GNI atau di
+            alamat yang tertera pada brosur atau postingan lokakarya dari GNI.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="icon-layanan">
+          <a
+            href="#"
+            id="kanan_seminar"
+            onclick="toggleLayanan(event, 'seminar')"
+          >
+            <i data-feather="chevron-right"></i>
+          </a>
+        </div>
+        <div class="layanan-image">
+          <img src="image/seminar.jpg" alt="seminar" id="seminar" />
+        </div>
+        <div class="content">
+          <p id="layananText4" style="display: none">
+            <span>4. Seminar</span> <br />
+            Selain lokakarya, GNI juga suka mengadakan seminar yang membahas
+            tentang pameran, seni, kebudayaan, dll. <br />
+            jadi buat kamu yang tertarik sama seminar seperti ini, jangan lupa
+            pantengin terus medsos dan website mereka yaa.`x
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="icon-layanan">
+          <a
+            href="#"
+            id="kanan_talkshow"
+            onclick="toggleLayanan(event, 'talkshow')"
+          >
+            <i data-feather="chevron-right"></i>
+          </a>
+        </div>
+        <div class="layanan-image">
+          <img src="image/talkshow.jpg" alt="TS" id="talkshow" />
+        </div>
+        <div class="content">
+          <p id="layananText5" style="display: none">
+            <span>5. TalkShow</span> <br />
+            Meskipun namanya 'galeri', tapi kalau ada isu-isu hangat yang sedang
+            dibicarakan masyarakat tidak luput dari pembahasan GNI loh, GNI juga
+            melakukan talkshow terkait isu-isu terkini yang sedang ramai
+            dibicarakan.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="icon-layanan">
+          <a href="#" id="kanan_buku" onclick="toggleLayanan(event, 'buku')">
+            <i data-feather="chevron-right"></i>
+          </a>
+        </div>
+        <div class="layanan-image">
+          <img src="image/buku.jpg" alt="PB" id="buku" />
+        </div>
+        <div class="content">
+          <p id="layananText6" style="display: none">
+            <span>6. Bedah Buku</span> <br />
+            GNI juga melaksanakan program bedah buku dengan mengundang
+            narasumber di bidang kesenian. Buat kamu yang tertarik bisa pantau
+            terus website dan media sosial Galeri Nasional Indonesia.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Layanan Section END -->
+
+    <!-- collection section START -->
+    <section id="koleksi" class="koleksi">
+      <h2><span>Koleksi</span> GNI</h2>
+
+      <div class="row">
+        <div class="icon-collection">
+          <a href="#" id="kanan" onclick="toggleKoleksi(event, 'garuda')">
+            <i data-feather="chevron-right"></i>
+          </a>
+        </div>
+        <div class="koleksi-image">
+          <img
+            src="image/garuda.jpg"
+            alt="lukisan_garuda"
+            id="lukisan_garuda"
+          />
+        </div>
+        <div class="content">
+          <p id="koleksiText" style="display: none">
+            <span>1. Garuda - Abas Alibasyah (1969)</span> <br />Dalam lukisan
+            ini, Abas menerapkan pola dasar geometrik untuk mengabstraksikan
+            bentuk burung garuda. Menjadi unik karena deformasi bentuk garuda
+            telah sedemikian jauh, sehingga yang lebih penting adalah ekspresi
+            berbagai unsur visual yang ada. Warna merah dengan gradasi ke arah
+            violet dan oranye memberi kekuatan sebagai latar belakang yang
+            ekspresif. Bentuk burung muncul lewat konstruksi serpihan bidang
+            dengan warna kuning dan hijau, diikat dengan tekstur dan goresan
+            kasar yang mencitrakan nafas primitif. Lukisan ini juga seperti
+            karya-karya Abas dalam periode itu, dipengaruhi oleh sumbersumber
+            visual dari berbagai patung etnis nusantara.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="icon-collection">
+          <a href="#" id="kanan_ibu" onclick="toggleKoleksi(event, 'ibu')">
+            <i data-feather="chevron-right"></i>
+          </a>
+        </div>
+        <div class="koleksi-image">
+          <img src="image/ibuku.jpg" alt="lukisan2" id="lukisan_ibu" />
+        </div>
+        <div class="content">
+          <p id="koleksiText2" style="display: none">
+            <span>2. Ibuku - Affandi (1941)</span> <br />
+            Lukisan ini merupakan salah satu dari karya awal yang diakusisi
+            menjadi koleksi Kementerian Pendidikan, Pengajaran, dan Kebudayaan
+            (kini Kementerian Pendidikan dan Kebudayaan) pada tahun 1948.
+            Affandi menampilkan kemahirannya dalam melukis potret realis di awal
+            kariernya sebelum beralih menuju impresionisme dan ekspresionisme.
+            Pada lukisan ini dapat kita amati sapuan kuas dan detail-detail
+            kecil yang berhasil membentuk figur seorang ibu yang tampak berusia
+            lanjut, menyilangkan tangan di pundaknya dengan tatapan dan raut
+            wajah yang cenderung bersedih. Rambutnya sedikit menjuntai dan tidak
+            tampak senyum dari bibirnya, memperlihatkan potret ini dibuat dalam
+            pose dan sudut pandang yang natural. Affandi memiliki perhatian
+            besar dan kecintaan kepada ibunya, ia kerap melukis sosok ibunya
+            dalam beberpa karya lainnya seperti “Ibu di dalam Ruangan” (1949),
+            dan “Ibu Marah” (1960).
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="icon-collection">
+          <a href="#" id="kanan_kuda" onclick="toggleKoleksi(event, 'kuda')">
+            <i data-feather="chevron-right"></i>
+          </a>
+        </div>
+        <div class="koleksi-image">
+          <img src="image/kuda.jpg" alt="lukisan3" id="lukisan_kuda" />
+        </div>
+        <div class="content">
+          <p id="koleksiText3" style="display: none">
+            <span>3. Kuda Lumping - Agus Djaya (1950)</span> <br />
+            Agus Djaya dikenal dengan pandangannya tentang seni rupa Timur dan
+            berhasrat untuk menemukan ciri keindonesiaan dalam karya seni rupa.
+            Terlihat dalam tema-tema karyanya banyak menggali akar budaya
+            Indonesia seperti legenda, cerita rakyat, dan tari tradisional.
+            Dalam karya "Kuda Lumping” dilukiskan seorang penari yang berdiri
+            dalam pose menari yang terkesan dinamis, mengenakan baju loreng
+            merah putih dan bercelana kuning menaiki kuda lumping (kuda pipih
+            terbuat dari anyaman bambu yang diwarnai dan dihias dengan pola-pola
+            dekoratif). Pada latar belakang tampak seorang pawang berpakaian
+            putih biru sedang memegang Pecut. Selain itu, tampak juga penabuh
+            gendang dan peniup terompet.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="icon-collection">
+          <a href="#" id="kanan_kakak" onclick="toggleKoleksi(event, 'kakak')">
+            <i data-feather="chevron-right"></i>
+          </a>
+        </div>
+        <div class="koleksi-image">
+          <img src="image/kakak.jpg" alt="lukisan4" id="lukisan_kakak" />
+        </div>
+        <div class="content">
+          <p id="koleksiText4" style="display: none">
+            <span>4. Kakak dan Adik - Basuki Abdullah (1978)</span> <br />
+            Lukisan Basuki Abdullah dengan judul Kakak dan Adik, yang dilukis
+            pada 1978 ini merupakan salah satu karyanya yang menunjukan kekuatan
+            penguasaan teknik realis. Dengan sorot pencahayaan dari samping,
+            figur kakak dan adik yang dalam gendongan terasa mengandung ritme
+            drama kehidupan yang “berat”. Namun tatapan sang kakak berkata
+            pengorbanan dan cinta kasih membuat langkah kedepan menjadi lebih
+            “ringan”. Basuki Abdullah dengan penguasaannya mencipta proporsi dan
+            anatomi, menggambarkan gerak tubuh mereka yang mengalunkan
+            perjalanan sunyi. Suasana demikian, seperti ekspresi wajah mereka
+            yang jernih tetapi matanya memelas menatap kosong. Apalagi dengan
+            pakaian mereka yang bersahaja dan berwarna gelap, sosok kakak
+            beradik ini dalam selubung keharuan. Latar belakang dengan warna
+            cokelat gelap pada bagian atas, perlahan kebawah membawa gradasi
+            menuju warna terang menambahkan kesan bahwa kondisi sulit yang
+            dialami perlahan diimbangi langkah penerang (sebuah solusi). Dari
+            berbagai fakta tekstual ini, Basuki Abdullah ingin mengungkapkan
+            empatinya pada kasih sayang dan kemanusiaan. Dalam kenyataannya
+            estetika Basuki Abdullah yang didukung kemampuan teknik akademis
+            yang tinggi menjadikannya sebagai pelukis besar Indonesia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- collection section END -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="phone-call"></i></a>
+        <a href="#"><i data-feather="phone"></i></a>
+        <a href="#"><i data-feather="mail"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#profil">Profil</a>
+        <a href="#about">Tentang GNI</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#koleksi">Koleksi</a>
+      </div>
+
+      <div class="pembuat">
+        <p>Dibuat oleh Kelompok 5</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My JS -->
+    <script src="script2.js"></script>
+  </body>
+</html>
