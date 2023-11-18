@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: black;
+    color: #fff;
+    /* min-height: 3000px; */
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: black;
+    border-bottom: 1px solid var(--primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  .navbar .navbar-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: red;
+    font-style: italic;
+  }
+  
+  .navbar .navbar-nav a {
+    color: burlywood;
+    display: inline-block;
+    font-size: 1, 3rem;
+    margin: 0 1rem;
+  }
+  
+  .navbar .navbar-nav a:hover {
+    color: var(--primary);
+  }
+  
+  .navbar .navbar-nav a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid var(--bg);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+  }
+  
+  .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.5);
+  }
+  
+  .navbar .navbar-extra a {
+    color: white;
+    margin: 0 0.5rem;
+  }
+  
+  .navbar .navbar-extra a:hover {
+    color: var(--primary);
+  }
+  
+  #hamburger-menu {
+    display: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(image/bagnaia_2b3bc0d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .hero::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+  }
+  
+  .hero .content {
+    padding: 1.4rem 7%;
+    max-width: 60rem;
+    position: relative;
+  }
+  
+  .hero .content h1 {
+    font-size: 4.5em;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgb(112, 55, 55, 1.5);
+    line-height: 1.2;
+    position: -webkit-sticky;
+  }
+  
+  .hero .content p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    line-height: 1.4;
+    font-weight: 100;
+    text-shadow: 1px 1px 3px rgb(112, 55, 55, 1.5);
+    mix-blend-mode: difference;
+    position: initial;
+  }
+  
+  /* About Section */
+  .about,
+  .sejarah,
+  .galery {
+    padding: 8rem 7% 1.4rem;
+  }
+  
+  .about h2,
+  .sejarah h2,
+  .galery h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+  }
+  
+  .about .row,
+  .sejarah.row,
+  .galery .row {
+    display: flex;
+  }
+  
+  .about .row .about-image {
+    flex: 1 1 45rem;
+  }
+  
+  .about .row .about-image image {
+    width: 100%;
+  }
+  
+  .about .row .content,
+  .sejarah .row .content,
+  .galery .row .content {
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+  }
+  
+  .about .row .content h3,
+  .sejarah .row .content h3,
+  .galery .row .content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about .row .content p,
+  .sejarah .row .content p,
+  .galery .row .content p {
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 1.6;
+  }
+  
+  /* galery Section */
+  .galery .galery-image img {
+    width: 420px;
+    height: 466px;
+    display: none;
+  }
+  
+  .galery .row {
+    display: flex;
+  }
+  
+  .galery .row .galery-image {
+    flex: 1 1 2rem;
+    margin: 2rem;
+  }
+  
+  .galery .row .content {
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+    margin: 2rem;
+  }
+  
+  .galery .row .content p {
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .galery .row .content h3 {
+    font-style: italic;
+  }
+  
+  .galery .row .content p span {
+    color: yellow;
+  }
+  
+  /* footer */
+  footer {
+    text-align: center;
+    padding: 1rem 0 3rem;
+    margin-top: 3rem;
+  }
+  
+  footer .socials {
+    padding: 1rem 0;
+  }
+  
+  footer .socials a {
+    color: #fff;
+    margin: 1rem;
+  }
+  
+  footer .socials a:hover,
+  footer .links a:hover {
+    color: turquoise;
+  }
+  
+  footer .links {
+    margin-bottom: 1.4rem;
+  }
+  
+  footer .links a {
+    color: #fff;
+    padding: 0.7rem 1rem;
+  }
+  
+  footer .pembuat {
+    font-size: 0.8rem;
+  }
+  
+  footer .pembuat a {
+    color: turquoise;
+    font-weight: 700;
+  }
+
+  
+  /* Media Queries */
+  
+  /* Laptop */
+  @media (max-width: 1366px) {
+    html {
+      font-size: 75%;
+    }
+  }
+  
+  /* Tablet */
+  @media (max-width: 768px) {
+    html {
+      font-size: 62.5%;
+    }
+  }
+  
+  #hamburger-menu {
+    display: inline-block;
+  }
+  
+  .navbar.navbar-nav {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: #fff;
+    width: 30rem;
+    height: 100vh;
+    transition: 0.3s;
+  }
+  
+  .navbar .navbar-nav .active {
+    right: 0;
+  }
+
+  /* Style untuk sidebar */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 8px 8px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style untuk konten utama */
+.content {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+.open-btn {
+  font-size: 30px;
+  cursor: pointer;
+}
+  
+  /* .navbar .navbar-nav a {
+    color: var(--bg);
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 0.2rem;
+  } */
+  
+  .navbar .navbar-nav a::after {
+    transform-origin: 0 0;
+  }
+  
+  .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.2);
+  }
+  
+  .about .row {
+    flex-wrap: wrap;
+  }
+  
+  .about .row .about-image image {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+
+  
